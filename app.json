@@ -33,10 +33,10 @@
       
     },
         
-    "AUTO_VOICE": {
-      "description": "Make it true if want automatic voice reply .",
+    "REJECT_MSG": {
+      "description": "put your own call reject message.",
       "required": false,
-      "value": "false"
+      "value": "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*"
     }, 
 
     "AUTO_REPLY": {
@@ -93,6 +93,13 @@
       "value": "𓆩ု᪳𝐀ɭīī 𝐌Ɗှ᪳𓆪"
 
       }, 
+
+    "DESCRIPTION": {
+      "description": "Type here the bot description name.",
+      "required": false,
+      "value": "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀"
+
+      }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
@@ -100,14 +107,14 @@
       "value": "https://files.catbox.moe/6ku0eo.jpg" 
       },
 
-    "DELETE_LINK": {
-      "description": "Make it true if you want bot auto delete group link.",
+    "ANTI_LINK_WARN": {
+      "description": "Make it true if you use one antilink warn - kick.",
       "required": false,
       "value": "false"
     }, 
     
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto wearing group link.",
+    "ANTI_LINK_KICK": {
+      "description": "Make it true if you use one antilink warn - kick.",
       "required": true,
       "value": "false"
     }, 
@@ -136,6 +143,11 @@
       "value": "false"
     },
 
+    "OWNER_REACT": {
+      "description": "Make it true if you want react on every message bot number.",
+      "required": false,
+      "value": "false"
+    },
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
@@ -184,3 +196,4 @@
   "stack": "heroku-24"
 }
   
+
